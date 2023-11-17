@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
+  companyName: AB
   productName: XR-POC
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -139,6 +139,8 @@ PlayerSettings:
   bundleVersion: 0.1
   preloadedAssets:
   - {fileID: 11400000, guid: df7643ac5fae50041975ff6e8ffaa683, type: 2}
+  - {fileID: 11400000, guid: a1fd83e0e703a45448f59d5cc0335c7e, type: 2}
+  - {fileID: 5513733709484086014, guid: ab7e1bd7cd7aae044ac9987ab537d023, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -158,7 +160,8 @@ PlayerSettings:
   resetResolutionOnWindowResize: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
-  applicationIdentifier: {}
+  applicationIdentifier:
+    Android: com.AB.XRPOC
   buildNumber:
     Standalone: 0
     VisionOS: 0
